@@ -1,0 +1,27 @@
+{
+    "name": "sashsvamir/yii2-jqury.scrollto",
+    "description": "JQuery.ScrollTo yii2 asset",
+    "type": "yii2-extension",
+    "keywords": [
+        "sashsvamir",
+        "yii2",
+        "asset",
+        "scrollto"
+    ],
+    "license": "MIT",
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "bower-asset/jquery.scrollto": "^2.1"
+    },
+    "authors": [
+        {
+            "name": "Alexander Shchukin",
+            "email": "alexander@shykin.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "sashsvamir\\scrollto\\": ""
+        }
+    }
+}
